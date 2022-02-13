@@ -1,21 +1,60 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@1&family=Rowdies:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  padding: auto;
-  text-align: center;
-  max-width: 400px;
-  background-color: wheat;
+  padding: 0;
+  background-color: #2b0246;
+  font-family: "IM Fell English", serif;
+  font-family: "Rowdies", cursive;
 }
 
-/* .nav-toggle {
-  position: fixed;
+li,
+a,
+header {
   display: flex;
-  margin: auto;
-  background: var(--clr--light);
-} */
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+.cta {
+  display: flexbox;
+  margin-block-start: 0%;
+  order: 2;
+}
+.logo {
+  cursor: pointer;
+  order: 3;
+  margin-right: auto;
+}
+nav {
+  order: 1;
+}
+.navLinks {
+  list-style: none;
+}
+.nav_list li {
+  display: inline-block;
+  padding: 0px 20px;
+}
 
-.navLink {
-  background-color: aqua;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: 300;
-  text-align: left;
+.nav_list li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_list li a:hover {
+  color: #24252a;
+}
+button {
+  margin-right: 100px;
+  padding: 15px 25px;
+  background-color: skyblue;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: skyblue, 0.8;
 }
