@@ -2,3 +2,16 @@
 >Information: name,profession,experience,all socials,achievements,hobbies
 future expectations , songs playlist , games(that i like), 
 images related to the info, links, spotify playlist ,etc
+>/* body {
+  margin: 0;
+  padding: auto;
+  text-align: center;
+  max-width: 400px;
+  background-color: wheat;
+}
+.navLink {
+  background-color: aqua;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 300;
+  text-align: left;
+} */
