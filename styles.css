@@ -4,8 +4,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
   /* background-color: #2b0246; */
+}
+html {
   font-family: "IM Fell English", serif;
   font-family: "Rowdies", cursive;
 }
@@ -15,10 +16,18 @@ body {
 li,
 a,
 header {
-  display: flex;
+  display: inline;
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
+}
+.logo {
+  margin: 0;
+  padding: 0;
+
+  display: inline-block;
+  max-width: 110px;
+  max-height: 110px;
 }
 .cta {
   display: inline-block;
@@ -32,14 +41,21 @@ header {
   margin-right: auto;
 }
 nav {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
 }
 .navLinks {
   list-style: none;
 }
+.nav-item {
+  display: inline;
+}
 .nav_list li {
+  display: inline;
+  text-decoration: none;
   /* display: inline-block; */
-  padding: 0px 20px;
+  padding: 0px;
+  margin: 0;
 }
 
 .nav_list li a {
@@ -52,7 +68,6 @@ nav {
 button {
   margin-right: 2rem;
   padding: 15px 60px;
-
   background-color: #434343;
   border: none;
   border-radius: 50px;
@@ -70,9 +85,8 @@ button:hover {
 ul {
   margin: 0;
   padding: 0;
-  display: list-item;
+  display: inline-block;
 }
-
-img {
-  max-width: 110px;
+.hidden {
+  display: none;
 }
