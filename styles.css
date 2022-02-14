@@ -4,13 +4,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: linear-gradient(-45deg , #2b0246 , #24252a , rgb(95, 40, 167) , #000);
-  /* background-color: #2b0246; */ 
+
+  /* background-color: #2b0246; */
   font-family: "IM Fell English", serif;
   font-family: "Rowdies", cursive;
 }
-body{
-
+body {
+  background-image: linear-gradient(270deg, #e2d1c3, #feada6);
 }
 li,
 a,
@@ -21,9 +21,10 @@ header {
   padding: 30px 10%;
 }
 .cta {
-  display: flexbox;
-  margin-block-start: 0%;
-  order: 2;
+  display: inline-block;
+  /* margin-block-start: 0%;
+  order: 2; */
+  text-decoration: none;
 }
 .logo {
   cursor: pointer;
@@ -31,13 +32,13 @@ header {
   margin-right: auto;
 }
 nav {
-  order: 1;
+  display: inline-block;
 }
 .navLinks {
   list-style: none;
 }
 .nav_list li {
-  display: inline-block;
+  /* display: inline-block; */
   padding: 0px 20px;
 }
 
@@ -51,7 +52,8 @@ nav {
 button {
   margin-right: 2rem;
   padding: 15px 60px;
-  background-color: rgb(160, 63, 199);
+
+  background-color: #434343;
   border: none;
   border-radius: 50px;
   cursor: pointer;
@@ -59,9 +61,18 @@ button {
 }
 
 button:hover {
-  background-color: rgb(95, 40, 167);
+  background-color: #fdfcfb;
 }
 
-.contact{
+.contact {
   text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  display: list-item;
+}
+
+img {
+  max-width: 110px;
 }
